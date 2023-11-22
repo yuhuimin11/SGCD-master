@@ -21,27 +21,14 @@ conda install pytorch=1.8.1 cudatoolkit=10.1 pyg -c pyg -c pytorch -y
 The parameters in the paper is preloaded in [`./properties/SGCD.yaml`](properties/SGCD.yaml).
 ```
 ## Documentation
-
-```
 src
-  │  data_util.py
-  │  deter_util.py
-  │  graph_util.py
   │  main.py
-  │  metric.py
-  │  model.py
-  │  sampler.py
-  │  train.py
-  ├─configs
-        │  configs.json
-  ├─pretrained_model
-  └─tasks
-        │  base.py
-        │  betae.py
-        │  pretrain.py
-        │  real_query.py
-        │  reasoning.py
-        │  __init__.py
+  │  radm.py
+  │  sgcd.py
+  │  trainer.py
+properties
+  │  SGCD.yaml
+  │  overall.ymal
 ```
 ### Model
 
