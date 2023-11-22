@@ -1,5 +1,8 @@
 # SGCD-master
 
+![ ](./MODEL1.png)
+
+
 **This is the code for our paper** `Semantic-enhanced Graph Contrastive Learning with Adaptive Denoising for Drug Repositioning`.
 
 ## Prerequisites
